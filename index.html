@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculatrice</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <h1>LOGO</h1>
+    <table class="calculatrice">
+        <tr>
+            <td colspan="4" class="calc_td_resultat">
+                <input type="text" readonly="readonly" name="calc_resultat" id="calc_resultat" class="calc_resultat">
+            </td>
+        </tr>
+        <tr>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="&larr;" />
+                <td colspan=1 class="cases_touches">
+                </td>
+                <!--PROBLEME : logo non centré -->
+                <td>
+                    <center>LOGO</center>
+                </td>
+                <!--PROBLEME : logo non centré -->
+                <td class="cases_touches">
+                    <input type="button" class="touches" value="=" />
+                </td>
+        </tr>
+        <tr>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="1" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="2" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="3" />
+                <td class="cases_touches">
+                    <input type="button" class="touches" value="+" />
+                </td>
+        </tr>
+        <tr>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="4" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="5" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="6" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="-" />
+            </td>
+        </tr>
+        <tr>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="7" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="8" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="9" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="x" />
+            </td>
+        </tr>
+        <tr>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="(" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="0" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value=")" />
+            </td>
+            <td class="cases_touches">
+                <input type="button" class="touches" value="&divide;" />
+            </td>
+        </tr>
+    </table>
+    <div id="historique"></div>
+</body>
+
+</html>
