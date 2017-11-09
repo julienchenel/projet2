@@ -1,2 +1,2 @@
 # projet2
-calculette
+https://julienchenel.github.io/projet2/
